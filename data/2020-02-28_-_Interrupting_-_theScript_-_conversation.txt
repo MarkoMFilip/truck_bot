@@ -1,0 +1,39 @@
+Bot: Hello, I am here to help you organize your fleet.
+Bot: If at any point you want to quit from the program, just type "q" or "quit".
+Bot: Let us first collect basic information.
+Bot: Please tell me your name: 
+Customer: Interrupting
+Bot: What is the designation of this fleet? 
+Customer: theScript
+Bot: How many vehicles are there in this fleet? 
+Customer: 3
+Bot: 
+We will now collect your fleet information.
+Bot: 
+Please provide details for vehicle nr. 1.
+Bot: Brand: 
+Customer: Mercedez
+Bot: Model: 
+Customer: SC 2333
+Bot: Engine size (in cubic centimeters): 
+Customer: 3000
+Bot: Number of truck axles: 
+Customer: 6
+Bot: Truck weight in metric tonnes: 
+Customer: 4
+Bot: Truck maximal load in metric tonnes: 
+Customer: 8.0
+Bot: Please check if the following information is correct (y/n): 
+Bot:           Brand   Mercedez  
+Bot:           Model   SC 2333   
+Bot:     Engine (cc)   3000      
+Bot:     Axle number   6         
+Bot:      Weight (T)   4         
+Bot:    Max load (T)   8.0       
+Bot: > 
+Customer: y
+Bot: 
+Please provide details for vehicle nr. 2.
+Bot: Brand: 
+Customer: q
+Customer has quit!

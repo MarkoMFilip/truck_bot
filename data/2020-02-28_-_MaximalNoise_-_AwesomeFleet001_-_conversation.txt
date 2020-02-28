@@ -1,0 +1,132 @@
+Bot: Hello, I am here to help you organize your fleet.
+Bot: If at any point you want to quit from the program, just type "q" or "quit".
+Bot: Let us first collect basic information.
+Bot: Please tell me your name: 
+Customer: Maximal Noise
+Bot: What is the designation of this fleet? 
+Customer: Awesome Fleet 001
+Bot: How many vehicles are there in this fleet? 
+Customer: 3
+Bot: 
+We will now collect your fleet information.
+Bot: 
+Please provide details for vehicle nr. 1.
+Bot: Brand: 
+Customer: Mercedez
+Bot: Model: 
+Customer: SC 3200
+Bot: Engine size (in cubic centimeters): 
+Customer: 3600
+Bot: Number of truck axles: 
+Customer: 5
+Bot: Truck weight in metric tonnes: 
+Customer: 3.5
+Bot: Truck maximal load in metric tonnes: 
+Customer: 8.2
+Bot: Please check if the following information is correct (y/n): 
+Bot:           Brand   Mercedez  
+Bot:           Model   SC 3200   
+Bot:     Engine (cc)   3600      
+Bot:     Axle number   5         
+Bot:      Weight (T)   3.5       
+Bot:    Max load (T)   8.2       
+Bot: > 
+Customer: y
+Bot: 
+Please provide details for vehicle nr. 2.
+Bot: Brand: 
+Customer: Honda
+Bot: Model: 
+Customer: xc
+Bot: Model name should have the pattern of two letters followed by space followed by a series of numbers,e.g. "SC 3200"; please try again: 
+Customer: XC 302
+Bot: Engine size (in cubic centimeters): 
+Customer: 3000
+Bot: Number of truck axles: 
+Customer: 3
+Bot: Truck weight in metric tonnes: 
+Customer: 3.4
+Bot: Truck maximal load in metric tonnes: 
+Customer: 5.
+Bot: Please check if the following information is correct (y/n): 
+Bot:           Brand   Honda     
+Bot:           Model   XC 302    
+Bot:     Engine (cc)   3000      
+Bot:     Axle number   3         
+Bot:      Weight (T)   3.4       
+Bot:    Max load (T)   5.        
+Bot: > 
+Customer: y
+Bot: 
+Please provide details for vehicle nr. 3.
+Bot: Brand: 
+Customer: Truck
+Bot: Model: 
+Customer: RR 387
+Bot: Engine size (in cubic centimeters): 
+Customer: 2000
+Bot: Number of truck axles: 
+Customer: 3
+Bot: Truck weight in metric tonnes: 
+Customer: 2.6
+Bot: Truck maximal load in metric tonnes: 
+Customer: 3.8
+Bot: Please check if the following information is correct (y/n): 
+Bot:           Brand   Truck     
+Bot:           Model   RR 387    
+Bot:     Engine (cc)   2000      
+Bot:     Axle number   3         
+Bot:      Weight (T)   2.6       
+Bot:    Max load (T)   3.8       
+Bot: > 
+Customer: y
+Bot: 
+Fleet information collected. Please take a look at the table and tell us if everything is correct (y/n).
+
+Bot:               Brand    Model Engine (cc) Axle number Weight (T) Max load (T)
+Truck nr.                                                                   
+1          Mercedez  SC 3200        3600           5        3.5          8.2
+2             Honda   XC 302        3000           3        3.4           5.
+3             Truck   RR 387        2000           3        2.6          3.8
+Bot: 
+
+Bot: > 
+Customer: n
+Bot: Which fleet row contains incorrect information? 
+Customer: 3
+Bot: 
+Please provide details for vehicle nr. 3.
+Bot: Brand: 
+Customer: Yamaha
+Bot: Model: 
+Customer: RR 387
+Bot: Engine size (in cubic centimeters): 
+Customer: 2000
+Bot: Number of truck axles: 
+Customer: 3
+Bot: Truck weight in metric tonnes: 
+Customer: 2.6
+Bot: Truck maximal load in metric tonnes: 
+Customer: 3.8
+Bot: Please check if the following information is correct (y/n): 
+Bot:           Brand   Yamaha    
+Bot:           Model   RR 387    
+Bot:     Engine (cc)   2000      
+Bot:     Axle number   3         
+Bot:      Weight (T)   2.6       
+Bot:    Max load (T)   3.8       
+Bot: > 
+Customer: y
+Bot: 
+Fleet information collected. Please take a look at the table and tell us if everything is correct (y/n).
+
+Bot:               Brand    Model Engine (cc) Axle number Weight (T) Max load (T)
+Truck nr.                                                                   
+1          Mercedez  SC 3200        3600           5        3.5          8.2
+2             Honda   XC 302        3000           3        3.4           5.
+3            Yamaha   RR 387        2000           3        2.6          3.8
+Bot: 
+
+Bot: > 
+Customer: y
+Bot: Thank you, and have a nice day!
