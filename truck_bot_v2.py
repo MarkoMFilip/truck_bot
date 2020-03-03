@@ -2,6 +2,7 @@ import os
 import re
 import sys
 import time
+import random
 import pandas as pd
 from datetime import datetime
 from typing import Tuple, List, Callable
@@ -133,6 +134,19 @@ def get_basic_info(data_path: str, conv: List) -> Tuple[str, str, List]:
 
     :return: name of the current user, ID/designation of the fleet, and the ongoing conversation list
     """
+    # Get the current date and form a string out of it
+    today = '{0}'.format(datetime.date(datetime.now()))
+
+    # NOTE: the following is a temporary fix for a save&quit bug! See commit log for details
+    # Generate a temporary username and fleet_id
+    rand = random.randint(1, 100000)
+    username = 'user' + str(rand)
+    fleet_id = 'fleet' + str(rand)
+    conv_path = os.path.join(data_path, '_-_'.join([today, username, fleet_id, 'conversation.txt']))
+    fleet_path = os.path.join(data_path, '_-_'.join([today, username, fleet_id, 'fleetdata.csv']))
+    conv.insert(0, fleet_path)
+    conv.insert(1, conv_path)
+
     # Start by getting the basic information: name, fleet designation
     username, conv = ask('Please tell me your name: ', conv)
     fleet_id, conv = ask('What is the designation of this fleet? ', conv)
@@ -140,9 +154,6 @@ def get_basic_info(data_path: str, conv: List) -> Tuple[str, str, List]:
     # If the username or the fleet ID contain spaces, remove them
     username = ''.join(username.split(' '))
     fleet_id = ''.join(fleet_id.split(' '))
-
-    # Get the current date and form a string out of it
-    today = '{0}'.format(datetime.date(datetime.now()))
 
     # Construct the base file name
     fn_base = '_-_'.join([today, username, fleet_id])
@@ -152,8 +163,8 @@ def get_basic_info(data_path: str, conv: List) -> Tuple[str, str, List]:
     conv_suffix = '_-_conversation.txt'
     fleet_path = os.path.join(data_path, fn_base+fleet_suffix)  # construct the fleet file path
     conv_path = os.path.join(data_path, fn_base+conv_suffix)  # construct the conversation file path
-    conv.insert(0, fleet_path)
-    conv.insert(1, conv_path)
+    conv[0] = fleet_path
+    conv[1] = conv_path
 
     # Output the data
     return username, fleet_id, conv
