@@ -1,0 +1,379 @@
+,Brand,Company name,Country,Continent
+0,ACMAT,ACMAT,France,Europe
+1,AEC,Associated Equipment Company,UK,Europe
+2,AIL,Automotive Industries,Israel,Asia
+3,AVM,AVM,Zimbabwe,Africa
+4,AWD,Bedford Vehicles,UK,Europe
+5,Agrale,Agrale,Brazil,South America
+6,Albion,Albion Motors,UK,Europe
+7,Alfa Romeo,Alfa Romeo,Italy,Europe
+8,American Coleman,American Coleman,,North America
+9,American LaFrance,American LaFrance,,North America
+10,Amico – Azar Motor Industrial Co,Amico – Azar Motor Industrial Co,Iran,Asia
+11,Argyle,Argyle,UK,Europe
+12,Armstrong-Saurer,Armstrong-Saurer,UK,Europe
+13,Arna – Iran Khodro Diesel,Arna – Iran Khodro Diesel,Iran,Asia
+14,Arya – Iran Khodro Diesel,Arya – Iran Khodro Diesel,Iran,Asia
+15,Ashok Leyland,Ashok Leyland,India,Asia
+16,Asia MotorWorks,Asia MotorWorks,India,Asia
+17,Askam,Askam,Turkey,Asia
+18,Askam,Askam,Turkey,Europe
+19,Astra,Astra (company),Italy,Europe
+20,Atkinson,Seddon Atkinson,UK,Europe
+21,Austin,Austin Motor Company,UK,Europe
+22,Autocar Company,Autocar Company,United States,North America
+23,Automiesse,Automiesse,Belgium,Europe
+24,Available,Available Motor Company,,North America
+25,Avia Trucks,Avia Trucks,Czech Republic,Europe
+26,Avtomobilnoe Moskovskoe Obshchestvo,Avtomobilnoe Moskovskoe Obshchestvo,Russia,Europe
+27,BMC,BMC,Turkey,Asia
+28,BMC,BMC,Turkey,Europe
+29,BYD Company,BYD Company,China,Asia
+30,Bailey,Bailey Motor Company,,North America
+31,Barkas,Barkas,Germany,Europe
+32,Baron,Baron,UK,Europe
+33,Barreiros,Barreiros,Spain,Europe
+34,Bean,Bean,UK,Europe
+35,Beardmore,William Beardmore and Company,UK,Europe
+36,Bedford,Bedford Vehicles,UK,Europe
+37,Beiqi Foton,Beiqi Foton,China,Asia
+38,BelAZ,BelAZ,Belarus,Europe
+39,Belsize Motors,Belsize Motors,UK,Europe
+40,Bering Trucks,Bering Trucks,,North America
+41,Berliet,Berliet,France,Europe
+42,Berliet-Tramagal,Berliet-Tramagal,Portugal,Europe
+43,Berna,Berna,Switzerland,Europe
+44,Borgward,Borgward,Germany,Europe
+45,Bristol,Bristol Commercial Vehicles,,Europe
+46,British Motor Corporation,British Motor Corporation,UK,Europe
+47,Brockway,Brockway Motor Company,,North America
+48,Brossel,Brossel,Belgium,Europe
+49,Brown,Brown Trucking Company,,North America
+50,Bruce-SN,Bruce-SN,UK,Europe
+51,Bucegi,Bucegi,Romania,Europe
+52,Büssing,Büssing,Germany,Europe
+53,Caledon,Caledon,UK,Europe
+54,Canada,Canadian Car Corporation,Canada,North America
+55,Carmichael,Amdac Carmichael,UK,Europe
+56,Caterpillar Trucks,Caterpillar Inc,Navistar International,Oceania
+57,Chavdar,Chavdar (company),Bulgaria,Europe
+58,Chenard-Walcker,Chenard-Walcker,France,Europe
+59,Chery,Chery,China,Asia
+60,Chevrolet,Chevrolet,,North America
+61,Chingkangshan,Chingkangshan,China,Asia
+62,Citroën,Citroën,France,Europe
+63,Cline,Cline,,North America
+64,Colet,Colet Trucks,,North America
+65,Commer,Commer,UK,Europe
+66,Corbitt,Corbitt (automobile company),,North America
+67,Crane Carrier Corporation,Crane Carrier Corporation,United States,North America
+68,Crossley,Crossley,UK,Europe
+69,Csepel,Csepel (automobile),Hungary,Europe
+70,DAC Trucks,DAC Trucks,Romania,Europe
+71,DAF Trucks,DAF Trucks,Australia,Oceania
+72,DAF Trucks,DAF Trucks,Netherlands division of,Europe
+73,Daewoo,Daewoo,Korea,Asia
+74,Daihatsu,Daihatsu,Japan – 51% owned by,Asia
+75,Daimler AG,Daimler AG,Germany,Europe
+76,Daimler India,Daimler India Commercial Vehicles,BharatBenz,Asia
+77,Dand – Azar Etesal,Dand – Azar Etesal,Iran,Asia
+78,Dart,Dart Trucks Company,United States,North America
+79,De Dion-Bouton,De Dion-Bouton,France,Europe
+80,DeSoto,DeSoto (automobile),,North America
+81,Delahaye,Delahaye,France,Europe
+82,Dennis,Dennis Specialist Vehicles,,Europe
+83,Dennis Eagle,Dennis Eagle,UK,Europe
+84,Dennis-Mann Egerton,Dennis-Mann Egerton,UK,Europe
+85,Dennison,Dennison Limited,Ireland,Europe
+86,Diamond T,Diamond T,,North America
+87,Dina,DINA S.A.,Mexico,North America
+88,Dodge,Dodge,,North America
+89,Dodge,Dodge,UK,Europe
+90,Dodge,Dodge,United States,Asia
+91,Dongfeng Motor Corporation,Dongfeng Motor Corporation,China –,Asia
+92,Douglas,Douglas,UK,Europe
+93,E-One,E-One,,North America
+94,ELM Trucking,ELM Trucking,Germany,Europe
+95,ELVO,ELVO,Greece,Europe
+96,ERF,ERF,UK,Europe
+97,Ebro,Ebro trucks,Spain,Europe
+98,Eicher Motors,Eicher Motors,India,Asia
+99,FAP,Fabrika automobila Priboj,Serbia,Europe
+100,FAR Trucks,FAR Trucks,France,Europe
+101,FAW,FAW Group,China,Asia
+102,FBW,Franz Brozincevic Wetzikon,Switzerland,Europe
+103,FTF Trucks,FTF Trucks,Netherlands,Europe
+104,FWD Auto Company,FWD Auto Company,,North America
+105,Fageol,Fageol,United States,North America
+106,Fargo,Fargo Trucks,Turkey,Asia
+107,Federal,Federal Motor Truck Company,,North America
+108,Fiat,Fiat,Italy,Europe
+109,Flextruc,Flextruc,Canada,North America
+110,Foden,Edwin Foden Sons & Co,UK,Europe
+111,Force Motors,Force Motors,India,Asia
+112,Ford,Ford of Britain,UK,Europe
+113,Ford,Ford,,North America
+114,Ford,Ford Germany,Germany,Europe
+115,Fowler,John Fowler & Co,UK,Europe
+116,Freeman,Freeman,,North America
+117,Freightliner Trucks,Freightliner Trucks,Australia,Oceania
+118,Freightliner Trucks,Freightliner Trucks,,North America
+119,GA,Ganja Auto Plant,Azerbaijan,Asia
+120,GA,Ganja Auto Plant,Azerbaijan,Europe
+121,GMC,General Motors,,North America
+122,GV,General Vehicle Company,UK,Europe
+123,Garner,Garner,UK,Europe
+124,Garrett,Richard Garrett & Sons,UK,Europe
+125,Gaz,GAZ,Russia,Europe
+126,General Motors Canada,General Motors Canada,,North America
+127,General Vehicle,VE (automobile company),United States,North America
+128,Genoto,Genoto,Turkey,Asia
+129,Gersix,Gersix,United States,North America
+130,Ghandhara Industries,Ghandhara Industries,Pakistan,Asia
+131,Gilford,Gilford Motors,UK,Europe
+132,Ginaf,Ginaf,Netherlands,Europe
+133,Gotfredson,Gotfredson,,North America
+134,Greenkraft Inc,Greenkraft Inc,,North America
+135,Grube,Grube,Germany,Europe
+136,Gräf & Stift,Gräf & Stift,Austria,Europe
+137,Guy,Guy Motors,UK,Europe
+138,HEPCO,HEPCO,Iran,Asia
+139,HHT,HHT,UK,Europe
+140,HSG,HSG,UK,Europe
+141,Halley,Halley,UK,Europe
+142,Hallford,Hallford,UK,Europe
+143,Hanomag,Hanomag,Germany,Europe
+144,Hardy,Hardy,UK,Europe
+145,Haulamatic,Haulamatic,UK,Europe
+146,Hayes Truck,Hayes Truck,,North America
+147,Hendrickson,Hendrickson,,North America
+148,Henschel,Henschel,Germany,Europe
+149,Hindustan Motors,Hindustan Motors,India,Asia
+150,Hino,Hino Motors,Australia,Oceania
+151,Hino,Hino Motors,different models for U.S. market,North America
+152,Hino Motors,Hino Motors,Japan,Asia
+153,Hinopak Motors,Hinopak Motors,Pakistan,Asia
+154,Hispano-Suiza,Hispano-Suiza,Spain,Europe
+155,Hohan,Hohan,China,Asia
+156,Horch,Horch,Germany,Europe
+157,Hotchkiss,Hotchkiss et Cie,France,Europe
+158,Howo,Howo,China,Asia
+159,Hualing Xingma Automobile,Hualing Xingma Automobile,China,Asia
+160,Hug,Hug Company,United States,North America
+161,Hyundai,Hyundai Motor Group,South Korea,Asia
+162,IFA,Industrieverband Fahrzeugbau,Germany,Europe
+163,Ibex,Ibex,,North America
+164,International,Navistar International,,North America
+165,Isuzu,Isuzu,Australia,Oceania
+166,Isuzu,Isuzu,Japan,Asia
+167,Isuzu,Isuzu,,North America
+168,Iveco,Iveco,Italy,Europe
+169,Iveco,Iveco,Australia,Oceania
+170,Jarrett,Jarrett,United States,North America
+171,Jeffedry Quad,Jeffedry Quad,United States,North America
+172,Jelcz,Jelcz,Poland,Europe
+173,Jensen,Jensen Motors,UK,Europe
+174,Jianghuai Automobile,JAC Motors,China,Asia
+175,Jiaotong,Jiaotong,China,Asia
+176,Jiefang,Jiefang,China,Asia
+177,KAZ,Kutaisi Auto Mechanical Plant,Georgia (country),Asia
+178,KAZ,Kutaisi Automotive Plant,Georgia (country),Europe
+179,KMC,KMC Motors,Cyprus,Asia
+180,Kaelble,Kaelble,Germany,Europe
+181,Kalmar,Kalmar,Poland,Europe
+182,Kalmar Industries,Kalmar Industries,formerly Ottawa yard switch trucks,North America
+183,Kamaz,Kamaz,Russia,Europe
+184,Karrier,Karrier,UK,Europe
+185,Kaveh – Saipa Diesel,Kaveh – Saipa Diesel,Iran,Asia
+186,Kenworth,Kenworth,,North America
+187,Kenworth,Kenworth,Australia,Oceania
+188,Kerr Stuart,Kerr Stuart,UK,Europe
+189,Knox,Knox Automobile,United States,North America
+190,Komatsu,Komatsu Limited,Japan,Asia
+191,KrAZ,KrAZ,Ukraine,Europe
+192,Kromhout,Kromhout,Netherlands,Europe
+193,LAZ,Lviv Bus Factory,Ukraine,Europe
+194,LIAZ,LIAZ,Czech Republic,Europe
+195,Labourier,Labourier,France,Europe
+196,Lacre,Lacre,UK,Europe
+197,Lancia,Lancia,Italy,Europe
+198,Latil,Latil,France,Europe
+199,Leyland,Leyland Trucks,UK,Europe
+200,Leyland DAF,Leyland DAF,UK,Europe
+201,Liberty,Liberty Truck,United States,North America
+202,Loheac,Loheac,France,Europe
+203,Lomount,Lomount,UK,Europe
+204,Lorraine-Dietrich,Lorraine-Dietrich,France,Europe
+205,MAN,MAN Truck & Bus,Germany,Europe
+206,MAZ,Minsk Automobile Plant,Belarus,Europe
+207,MTZ,Minsk Tractor Works,Belarus,Europe
+208,MZKT,MZKT,Belarus,Europe
+209,Mack Trucks,Mack Trucks,,North America
+210,Mack Trucks,Mack Trucks,Australia,Oceania
+211,Madara,"Madara, Bulgaria",Bulgaria,Europe
+212,Magirus,Magirus,Germany,Europe
+213,Mahendra Motor European,Mahendra,Germany,Europe
+214,Mahendra Motors African,Mahendra,Mauritius,Africa
+215,Mahindra Truck and Bus Division,Mahindra Truck and Bus Division,India,Asia
+216,Manchester,Manchester Motors,UK,Europe
+217,Mann,Mann & Charlesworth,UK,Europe
+218,Marmon,Marmon Motor Company,,North America
+219,Marmon-Herrington,Marmon-Herrington,,North America
+220,Master Motors,Master Motors,Pakistan,Asia
+221,Matra Fire,Matra Fire,Indonesia,Asia
+222,Maudslay,Maudslay,UK,Europe
+223,McCurd,McCurd,UK,Europe
+224,Mercedes-Benz,Mercedes-Benz,Germany,Europe
+225,Mercedes-Benz,Mercedes-Benz,Australia,Oceania
+226,Minerva,Minerva (automobile),Belgium,Europe
+227,Mitsubishi Fuso,Mitsubishi Fuso Truck & Bus Corporation,Australia,Oceania
+228,Mitsubishi Fuso,Mitsubishi Fuso Truck & Bus Corporation,Japan,Asia
+229,Mitsubishi Fuso,Mitsubishi Fuso Truck of America,,North America
+230,Moreland,Moreland,United States,North America
+231,Morris,Morris Motors,UK,Europe
+232,Morris Commercial,Morris Commercial,UK,Europe
+233,Motor Traction,Motor Traction,UK,Europe
+234,Mowag,Mowag,Switzerland,Europe
+235,Multicar,Multicar,Germany,Europe
+236,Multiwheeler,Multiwheeler,UK,Europe
+237,Namco,Namco,Greece,Europe
+238,Neobus,Neobus,Serbia,Europe
+239,New Sentosa CV,New Sentosa CV,Indonesia,Asia
+240,Nibus,Nibus,Serbia,Europe
+241,Nicolas,Nicolas,,Europe
+242,Nissan,Nissan,,North America
+243,Nissan Diesel,Nissan Diesel,Japan – 100% owned by,Asia
+244,Nissian/Minsei,Nissian/Minsei,Japan,Asia
+245,Norde,Norde,,Europe
+246,Officine Meccaniche,Officine Meccaniche,Italy,Europe
+247,Officine Meccaniche Tortonesi,Officine Meccaniche Tortonesi,Italy,Europe
+248,Opel,Opel,Germany,Europe
+249,Orange EV,Orange EV,United States,North America
+250,Oshkosh,Oshkosh Corporation,,North America
+251,Otokar,Otokar,Turkey,Asia
+252,Otosan,Ford Otosan,Turkey,Asia
+253,Otosan,Ford Otosan,Turkey,Europe
+254,Paccar,Paccar,United States,North America
+255,Pagefield,Pagefield,UK,Europe
+256,Panhard,Panhard,France,Europe
+257,Paul Nutzfahrzeuge,Paul Nutzfahrzeuge,Germany,Europe
+258,Paymaster,Paymaster,,North America
+259,Pegaso,Pegaso,Spain,Europe
+260,Perkasa Truck,Perkasa Truck,Indonesia,Asia
+261,Persika – Iran Khodro Diesel,Persika – Iran Khodro Diesel,Iran,Asia
+262,Peterbilt,Peterbilt,,North America
+263,Peugeot,Peugeot,France,Europe
+264,Pierce,Pierce Manufacturing,,North America
+265,Praga,Praga,Czech Republic,Europe
+266,Premier Automobiles,Premier Automobiles Limited,India,Asia
+267,Preslav,Preslav,Bulgaria,Europe
+268,Proctor,Proctor,UK,Europe
+269,Quest,Quest,UK,Europe
+270,RFW,RFW,Australia,Oceania
+271,Raba,Rába (company),Hungary,Europe
+272,Ralph,Ralph,,Africa
+273,Ramirez,Ramirez (company),Mexico,North America
+274,Rapid,Rapid Motor Vehicle Company,United States,North America
+275,Relay,Relay Motor Corporation,United States,North America
+276,Renault Trucks,Renault Trucks,France,Europe
+277,Reo,REO Motor Car Company,United States,North America
+278,Republic,Republic Motor Truck Company,United States,North America
+279,Riker,Riker Electric Motor Company,United States,North America
+280,Robur,Robur (truck),Germany,Europe
+281,Roman,Roman,Romania,Europe
+282,Rotinoff,Rotinoff Motors,UK,Europe
+283,Rowe-Hillmaster,Rowe-Hillmaster,UK,Europe
+284,Rutland,Rutland,UK,Europe
+285,SAMIL,SAMIL,South Africa,Africa
+286,SD,SD,UK,Europe
+287,SNVI,SNVI,Algeria,Africa
+288,Saurer,Saurer,Switzerland,Europe
+289,Saviem,Saviem,France,Europe
+290,Scammell,Scammell,UK,Europe
+291,Scania,Scania AB,Australia,Oceania
+292,Scania,Scania AB,Sweden,Europe
+293,Scot,Scot,Canada,North America
+294,Seddon,Seddon Atkinson,UK,Europe
+295,Seddon Atkinson,Seddon Atkinson,UK,Europe
+296,Sentinel,Sentinel Waggon Works,UK,Europe
+297,Shaanxi Automobile Group,Shaanxi Automobile Group,China,Asia
+298,Shacman,Shacman,China,Asia
+299,Shefflex,Shefflex,UK,Europe
+300,Sides,Sides (company),France,Europe
+301,Simca,Simca,France,Europe
+302,Sinotruk,China National Heavy Duty Truck Group,China,Asia
+303,Sisu Auto,Sisu Auto,Finland,Europe
+304,Sitom,Sitom,China,Asia
+305,Sitrak,Sitrak,China,Asia
+306,Somua,Somua,France,Europe
+307,Spangler,Spangler (automobile company),United States,North America
+308,Star,FCS Star,Poland,Europe
+309,Star,Star Engineering,UK,Europe
+310,Sterling Trucks,Sterling Trucks,,North America
+311,Stewart,Stewart (automobile),United States,North America
+312,Steyr,Steyr-Daimler-Puch,Austria,Europe
+313,Straker-Squire,Straker-Squire,UK,Europe
+314,Straussler,Straussler,UK,Europe
+315,Studebaker,Studebaker,United States,North America
+316,Swaraj Mazda,Swaraj Mazda,India,Asia
+317,TAM,Tovarna avtomobilov Maribor,Slovenia,Europe
+318,TVM,Tovarna Vozil Maribor,Slovenia,Europe
+319,TVS,TVS Group,India,Asia
+320,TVS Motar France,TVS Motor Company,France,Europe
+321,TVW,Transport Vehicles,UK,Europe
+322,Tadano Faun GmbH,Tadano Faun GmbH,Germany,Europe
+323,Tata Daewoo,Tata Daewoo,South Korea,Asia
+324,Tata Motor UK,Tata Group,United Kingdom,Europe
+325,Tata Motors,Tata Motors,India,Asia
+326,Tata Motors Africa,Tata Motors,Kenya,Africa
+327,Tata Motors Japan,Tata Group,"Japan - subsidiary of Tata Motors, India",Asia
+328,Tatra,Tatra cars,Czech Republic,Europe
+329,Temax,Temax,Greece,Europe
+330,Terberg,Terberg,Netherlands,Europe
+331,Tesla Motors,Tesla Motors,,North America
+332,Thornycroft,Thornycroft,UK,Europe
+333,Tilling Stevens,Tilling Stevens,UK,Europe
+334,Titan,Titan,,Europe
+335,Tonar,Tonar,,Europe
+336,Traffic,Traffic Motor Corporation,United States,North America
+337,UD Trucks,UD Trucks,Southern Africa,Africa
+338,UD Trucks,UD Trucks,Australia,Oceania
+339,UD Trucks,UD Trucks,Japan,Asia
+340,UD Trucks,UD Trucks,,North America
+341,URO,Uro,Spain,Europe
+342,USG-Pitt,USG-Pitt,UK,Europe
+343,Unic,Unic,France,Europe
+344,Unimog,Unimog,Germany,Europe
+345,Union,Union Cartage Company,UK,Europe
+346,Unipower,Universal Power Drives,UK,Europe
+347,Ural,Ural Automotive Plant,Russia,Europe
+348,Uri,Uri International Vehicle & Equipment Marketing,Namibia,Africa
+349,Vanaja,Vanajan Autotehdas,Finland,Europe
+350,Vehicle Factory Jabalpur,Vehicle Factory Jabalpur,India,Asia
+351,Verheul,Verheul,Netherlands,Europe
+352,Volkswagen Caminhões e Ônibus,Volkswagen Caminhões e Ônibus,Brazil,South America
+353,Volkswagen Commercial Vehicles,Volkswagen Commercial Vehicles,Germany,Europe
+354,Volvo Trucks,Volvo Trucks,different models for U.S. market,North America
+355,Volvo Trucks,Volvo Trucks,Australia,Oceania
+356,Volvo Trucks,Volvo Trucks,Sweden,Europe
+357,Volvo Trucks,Volvo Trucks,South Africa,Africa
+358,Vomag,Vomag,Germany,Europe
+359,Vulcan,Vulcan,UK,Europe
+360,Walter,Walter (automobile company),United States,North America
+361,Western Star Trucks,Western Star Trucks,Australia,Oceania
+362,Western Star Trucks,Western Star Trucks,,North America
+363,White,White Motor Company,,North America
+364,Willeme,Willeme,France,Europe
+365,XCMG,XCMG,China,Asia
+366,Yarovit,Yarovit,,Europe
+367,Yellow River,Yellow River,China,Asia
+368,Yorkshire,Yorkshire,UK,Europe
+369,Yuejin,Yuejin,China,Asia
+370,Zastava Trucks,Zastava Trucks,Serbia,Europe
+371,Zeber Motor,Zeber Motor,India,Asia
+372,Zeligson,Zeligson,United States,North America
+373,ZiL,ZiL,Russia,Europe
+374,Ziyang Nanjun,Chun Nan Jun,China,Asia
+375,Zwicky,Zwicky,,Europe
+376,ÖAF,ÖAF,Austria,Europe
+377,Škoda,Škoda Auto,Czech Republic,Europe

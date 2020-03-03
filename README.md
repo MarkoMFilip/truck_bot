@@ -11,7 +11,7 @@ of the user, and truck fleet ID/designation.
 
 Due to use of type annotations, Python 3.5 or higher is needed to run the script
 correctly.
-Of non-standard libraries, only `pandas` is needed.
+Of non-standard libraries, `bs4` (BeautifulSoup4) and `pandas` are needed.
 
 
 ## Versions
@@ -21,6 +21,13 @@ I have included two versions of the same bot in this repository. The first one,
 save conversation information if the user quits the script before it naturally
 ends. I have fixed this problem in `truck_bot_v2.py`, however the hacks I 
 introduced in order to have this functionality are... not the best.
+
+#### v1.1
+Introduced capability for recognizing and correcting truck brands from user 
+input. If the user enters a brand whose name does not match something from 
+the list, the script will offer a suggestion. The list of truck brands is 
+generated from `get_truck_brand_names.py` script which needs to be ran only 
+once before the first use of the interview bot.
 
 
 ## Example data

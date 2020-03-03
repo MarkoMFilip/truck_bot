@@ -1,0 +1,79 @@
+Bot: Hello, I am here to help you organize your fleet.
+Bot: If at any point you want to quit from the program, just type "q" or "quit".
+Bot: Let us first collect basic information.
+Bot: Please tell me your name: 
+Customer: Hans Kristian
+Bot: What is the designation of this fleet? 
+Customer: ABC 123
+Bot: How many vehicles are there in this fleet? 
+Customer: 2
+Bot: 
+We will now collect your fleet information.
+Bot: 
+Please provide details for vehicle nr. 1.
+Bot: Brand: 
+Customer: cevrotel
+Bot: You wrote cevrotel. Did you mean Chevrolet (1), Verheul (2), or Brossel (3) (1/2/3/n)?
+Customer: 1
+Bot: Model: 
+Customer: SC 2300
+Bot: Engine size (in cubic centimeters): 
+Customer: 3000
+Bot: Number of truck axles: 
+Customer: 4
+Bot: Truck weight in metric tonnes: 
+Customer: 3.2
+Bot: Truck maximal load in metric tonnes: 
+Customer: 5.6
+Bot: Please check if the following information is correct (y/n): 
+Bot:           Brand   Chevrolet 
+Bot:           Model   SC 2300   
+Bot:     Engine (cc)   3000      
+Bot:     Axle number   4         
+Bot:      Weight (T)   3.2       
+Bot:    Max load (T)   5.6       
+Bot: > 
+Customer: y
+Bot: 
+Please provide details for vehicle nr. 2.
+Bot: Brand: 
+Customer: Honda
+Bot: You wrote Honda. Did you mean Hyundai (1), Škoda (2), or Tonar (3) (1/2/3/n)?
+Customer: 5
+Bot: Please choose one of the following: 1/2/3/n
+Customer: leave Britney alone!
+Bot: Please choose one of the following: 1/2/3/n
+Customer: no!
+Bot: Please choose one of the following: 1/2/3/n
+Customer: no
+Bot: Model: 
+Customer: XB 12
+Bot: Engine size (in cubic centimeters): 
+Customer: 2400
+Bot: Number of truck axles: 
+Customer: 2
+Bot: Truck weight in metric tonnes: 
+Customer: 3.2
+Bot: Truck maximal load in metric tonnes: 
+Customer: 5
+Bot: Please check if the following information is correct (y/n): 
+Bot:           Brand   Honda     
+Bot:           Model   XB 12     
+Bot:     Engine (cc)   2400      
+Bot:     Axle number   2         
+Bot:      Weight (T)   3.2       
+Bot:    Max load (T)   5         
+Bot: > 
+Customer: y
+Bot: 
+Fleet information collected. Please take a look at the table and tell us if everything is correct (y/n).
+
+Bot:                Brand    Model Engine (cc) Axle number Weight (T) Max load (T)
+Truck nr.                                                                    
+1          Chevrolet  SC 2300        3000           4        3.2          5.6
+2              Honda    XB 12        2400           2        3.2            5
+Bot: 
+
+Bot: > 
+Customer: yes
+Bot: Thank you, and have a nice day!
