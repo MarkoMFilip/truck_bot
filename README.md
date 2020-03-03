@@ -22,7 +22,7 @@ save conversation information if the user quits the script before it naturally
 ends. I have fixed this problem in `truck_bot_v2.py`, however the hacks I 
 introduced in order to have this functionality are... not the best.
 
-#### v1.1
+#### v1.0.1
 Introduced capability for recognizing and correcting truck brands from user 
 input. If the user enters a brand whose name does not match something from 
 the list, the script will offer a suggestion. The list of truck brands is 
