@@ -7,7 +7,7 @@ a .txt. file. File names are generated based on the date of conversation, name
 of the user, and truck fleet ID/designation.
 
 
-## Prerequisits
+## Prerequisites
 
 Due to use of type annotations, Python 3.5 or higher is needed to run the script
 correctly.
