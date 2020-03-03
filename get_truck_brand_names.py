@@ -20,10 +20,6 @@ def remove_superfluous(text: str, pattern: List) -> str:
     """
     Strip the string from all superfluous text.
 
-    NOTE: there are some truck brands that don't have a wiki page, and are not marked with a red link; in that case the
-    link doesn't exist and the text passed to this function is not actually a list but just a string. This is the reason
-    for the `isinstance` line.
-
     Input
     :param text: text to be cleaned
     :param pattern: list of terms to be removed
@@ -53,7 +49,7 @@ def clean_content(content: List) -> List:
     return content
 
 
-# TODO: (function below)
+# TODO: make function for cleaning the country entries in the table
 '''
 def verify_country(country: str, country_list: List) -> str:
     """
@@ -74,10 +70,8 @@ def verify_country(country: str, country_list: List) -> str:
 def get_brand_and_company(content: bs4.element, strip_list: List) -> Tuple[str, str]:
     """
     Takes a truck table entry, parses it, and cleans it.
-
-    WARNING: at least one brand name instance does not have a link of any kind associated with it, and is just a
-    pure string. This case is handled in the `else` statement, but is not general enough! However, it works for
-    the current (02-03-2020) version of the Wikipedia page.
+    Note however that at least one brand name instance does not have a link of any kind associated with it, and is just
+    a pure string. This case is handled in the `else` statement.
 
     Input
     :param content: contents of the table entry for a particular truck brand holding brand name and company name
@@ -112,7 +106,6 @@ def get_continent(content: bs4.element.Tag) -> str:
     try:
         continent = tmp_content.span['id'].replace('_', ' ')
     except TypeError:
-        # Even on a Wikipedia page, Americans have to be special
         for ii in range(2):
             tmp_content = tmp_content.previous_sibling
         continent = tmp_content.span['id'].replace('_', ' ')
@@ -147,7 +140,7 @@ def parse_trucks_page(data: bs4.BeautifulSoup, strip_list: List, frame_columns: 
             # TODO: handle case when multiple countries are declared for a single brand
             if continent != 'Oceania':
                 country = None  # if the country doesn't exist, initialize it to a None
-            else:  # if the continent is Oceania, there's only one "country" there producing trucks: Australia
+            else:  # if the continent is Oceania, there's only one "country" there CURRENTLY producing trucks: Australia
                 country = 'Australia'
             # Now get the country
             if len(content) > 1:
