@@ -259,7 +259,7 @@ def check_brand_name(input_msg: str, criterion: Callable, err_msg: str, brand_li
         # Check if the input is valid
         permitted = [str(x) for x in range(1, len(match)+1)]
         permitted.extend(['n', 'no', 'not'])
-        while choice not in permitted:
+        while choice.lower() not in permitted:
             choice, conv = ask('Please choose one of the following: ' + ''.join(input_msg_c).lstrip(' (').rstrip(')?'),
                                conv)
 
