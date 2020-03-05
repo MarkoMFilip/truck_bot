@@ -238,38 +238,64 @@ def check_brand_name(input_msg: str, criterion: Callable, err_msg: str, brand_li
     # Find the nearest matches to the user input
     match = difflib.get_close_matches(original_brand, brand_list, n=3, cutoff=0.4)
 
-    # If the nearest match is exactly like the statement, the user hasn't made an error; otherwise offer up to three
-    # suggestions for correction
-    if match[0] != original_brand:
-        # Construct the question for the user, offering suggestions for correction
-        input_msg_q = [f'You wrote {original_brand}. Did you mean {match[0]} (1)']
-        input_msg_c = [f' (1']
-        for ii in range(1, len(match)):
-            if ii != len(match)-1:
-                input_msg_q.append(f', {match[ii]} ({ii+1})')
-                input_msg_c.append(f'/{ii+1}')
-            else:
-                input_msg_q.append(f', or {match[ii]} ({ii+1})')
-                input_msg_c.append(f'/{ii+1}/n)?')
-        input_msg = ''.join([''.join(input_msg_q), ''.join(input_msg_c)])
-
-        # Ask the user
-        choice, conv = ask(input_msg, conv)
+    # Maybe the entry is too wrong for the chosen difflib cutoff
+    if len(match) == 0:
+        maybe_wrong = f'{original_brand} doesn\'t match any known truck brand. Would you like to (1) keep it or (2) ' \
+                      f'try again? '
+        choice, conv = ask(maybe_wrong, conv)
 
         # Check if the input is valid
-        permitted = [str(x) for x in range(1, len(match)+1)]
-        permitted.extend(['n', 'no', 'not'])
-        while choice.lower() not in permitted:
-            choice, conv = ask('Please choose one of the following: ' + ''.join(input_msg_c).lstrip(' (').rstrip(')?'),
-                               conv)
+        while choice not in ['1', '2']:
+            choice, conv = ask('Please choose one of the following: 1/2', conv)
 
-        # Parse the input and return the brand
-        if negative_answer(choice):
+        # Parse the input
+        if choice == '1':
             corrected_brand = original_brand
-        else:
-            corrected_brand = match[int(choice)-1]
+        else:  # recursively repeat the conversation if the user wants it
+            corrected_brand, conv = check_brand_name(input_msg, criterion, err_msg, brand_list, conv)
 
-        return corrected_brand, conv
+    # If there were appropriate corrections, offer suggestions
+    else:
+        # If the nearest match is exactly like the statement, the user hasn't made an error; otherwise offer up to three
+        # suggestions for correction
+        if match[0] != original_brand:
+            # Construct the question for the user, offering suggestions for correction
+            corrected_msg_q = [f'You wrote {original_brand}. Did you mean (1) {match[0]}']
+            corrected_msg_c = [f' (1']
+            if len(match) > 1:
+                for ii in range(1, len(match)):
+                    if ii != len(match)-1:
+                        corrected_msg_q.append(f', ({ii+1}) {match[ii]}')
+                        corrected_msg_c.append(f'/{ii+1}')
+                    else:
+                        corrected_msg_q.append(f', or ({ii+1}) {match[ii]}')
+                        corrected_msg_c.append(f'/{ii+1}/n)?')
+            else:
+                corrected_msg_c.append(f'/n)?')
+            corrected_msg = ''.join([''.join(corrected_msg_q), ''.join(corrected_msg_c)])
+
+            # Ask the user
+            choice, conv = ask(corrected_msg, conv)
+
+            # Check if the input is valid
+            permitted = [str(x) for x in range(1, len(match)+1)]
+            permitted.extend(['n', 'no', 'not'])
+            while choice.lower() not in permitted:
+                choice, conv = ask('Please choose one of the following: ' +
+                                   ''.join(corrected_msg_c).lstrip(' (').rstrip(')?'), conv)
+
+            # Parse the input
+            if negative_answer(choice):
+                corrected_brand = original_brand
+            else:
+                corrected_brand = match[int(choice)-1]
+
+        # If the nearest match is exactly like the original_brand, then accept that answer
+        else:
+            corrected_brand = original_brand
+
+    # Return the brand name
+    return corrected_brand, conv
 
 
 def get_single_truck(truck_nr: int, truck_brands: List, conv: List) -> Tuple[pd.Series, List]:
@@ -289,7 +315,7 @@ def get_single_truck(truck_nr: int, truck_brands: List, conv: List) -> Tuple[pd.
     # Get truck name
     input_msg = 'Brand: '
     criterion = str.isalpha
-    err_msg = 'Brand name should not contain numbers; please try again: '
+    err_msg = 'Brand name should not contain only letters; please try again: '
     brand, conv = check_brand_name(input_msg, criterion, err_msg, truck_brands, conv)
 
     # Get truck model; TODO: ask a domain expert what would be a more general model name pattern
