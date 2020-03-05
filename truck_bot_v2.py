@@ -4,7 +4,7 @@ import sys
 import time
 import random
 import difflib
-
+import get_truck_brand_names
 import pandas as pd
 from datetime import datetime
 from typing import Tuple, List, Callable
@@ -457,6 +457,10 @@ def main():
     data_path = './data'  # path to the data folder
     brands_path = './truck_brands.csv'
     conv = []  # main conversation list, where the entire dialogue will be stored
+
+    # Check if the list of truck brands exists in the main folder
+    if not os.path.isfile(brands_path):
+        get_truck_brand_names.truck_brands_table(brands_path)
 
     # Load truck brands into a list
     _, brands = load_brands(brands_path)  # we only need the list of brands for now
