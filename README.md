@@ -1,27 +1,32 @@
 # Interview bot
 
-This is an example of a small linear interview bot, used to collect information
-about trucks within a trucking fleet. After the interaction with the user it
-saves all the fleet data in a .csv file, and the content of the conversation in 
-a .txt. file. File names are generated based on the date of conversation, name
-of the user, and truck fleet ID/designation.
+This is a small linear interview chat bot, whose purpose is to collect 
+information about trucks that the user/client wants to add to their trucking
+fleet, and construct a .csv file with the full truck fleet data. In addition, 
+the bot will output the content of the conversation in a .txt file for eventual
+future analysis. File names of the output data files are generated based on the 
+date of conversation, name of the user, and truck fleet ID/designation.
+
+As an additional feature, the script compares the truck brand name that the user
+entered with the list of truck manufactureres scrapped from Wikipedia, and 
+offers suggestions for correct spelling.
 
 
 ## Prerequisites
 
-Due to use of type annotations, Python 3.5 or higher is needed to run the script
-correctly.
-Of non-standard libraries, `bs4` (BeautifulSoup4) and `pandas` are needed.
+* Python >=3.5
+* `pandas`
+* `bs4` (BeautifulSoup4)
 
 
 ## Versions
 
-I have included two versions of the same bot in this repository. The first one, 
-`truck_bot_v1.py`, is much cleaner and works as intended, except that it doesn't
-save conversation information if the user quits the script before it naturally
-ends. I have temporarily fixed this problem in `truck_bot_v2.py`. The idea for
-future is to switch to OOP paradigm, in which it will be much easier to handle
-this issue.
+The current version of the main script is the final one before I convert it to
+OOP paradigm.
+
+#### v1.2
+ * Removed former "v1" and renamed "v2" script to just "truck_bot"
+ * Exchanged the hack from former "v2" script with calls to global variables
 
 #### v1.1
  * Introduced capability for recognizing and correcting truck brands from user 
@@ -32,10 +37,11 @@ the list, the script will offer a suggestion.
 
 ## Example data
 
-I have included the `data` folder with two example data sets, one with both 
-.csv and .txt files that resulted from the use of `truck_bot_v1.py`, and the 
-other with just a .txt. file which demonstrated the enhanced quit functionality
-of `truck_bot_v2.py`.
+I have included the `data` folder with four example data sets: one where the 
+user just follows the instructions in a straightforward manner ("ABC123"), one
+where the user has corrected several entries ("HansKristian"), one where the 
+user interrupted the script mid-way ("Interrupting"), and one where user quit
+in the very first line ("user87926").
 
 
 ## Notes
