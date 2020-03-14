@@ -1,0 +1,6 @@
+Bot: Hello, I am here to help you organize your fleet.
+Bot: If at any point you want to quit from the program, just type "q" or "quit".
+Bot: Let us first collect basic information.
+Bot: Please tell me your name: 
+Customer: q
+Customer has quit!
